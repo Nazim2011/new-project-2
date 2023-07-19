@@ -137,6 +137,10 @@
     font-size: 1.2rem;
     font-weight: 400;
 }
+.button-text{
+    display: flex;
+    align-items: right;
+}
 .center-part-right .btn-primary{
     display: inline-flex;
     padding: 21px 40px;
@@ -376,6 +380,7 @@
     justify-content: center;
     margin-top: 30px;
     color: #FFFFFF;
+    margin-bottom: 2rem;
 }
 .footer-title h2{
     margin-left: 5px;
@@ -428,6 +433,7 @@
   .footer-end h4{
     display: flex;
     justify-content: center;
+    margin-top: 2rem;
 
   }
 
