@@ -1,0 +1,435 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+/* navbar section */
+.header{
+   padding: 2rem 0;
+   margin: 45px 240px;
+
+}
+.navbar{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+}
+.nav-left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.nav-left h2{
+    margin-left: 20px ;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #0B0223;
+}
+.nav-left span{
+    color: #F948B2;
+}
+.nav-right {
+    width: 50%;
+}
+.nav-right ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.nav-right ul li{
+    list-style: none;
+    text-align: center;
+}
+/* navbar section end */
+/* uper part start */
+.uper-part-start{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+.uper-part-left{
+    width: 100%;
+}
+.uper-part-left h3{
+    color: #0B0223;
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.uper-part-left h1{
+    text-align: left;
+    font-size: 5.4rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 0px;
+    color: #F948B2;
+
+}
+.uper-part-left p{
+    color: #534C64;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+.uper-part-left button{
+    margin-top: 2rem;
+}
+.uper-part-left .btn-primary{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.uper-part-left .option{
+    background: #4EC5F7;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 48px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+.uper-part-right{
+    width: 100%;
+}
+/* uper part end */
+/* center part start */
+.center-part-start{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5rem auto;
+}
+.center-part-left{
+    width: 100%;
+    padding-right: 2rem;
+}
+.center-part-right{
+    width: 100%;
+    align-items: right;
+}
+.center-part-right h3{
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+    color:  #F948B2 ;
+    margin-bottom: 2rem;
+}
+.center-part-right p{
+    color: #534C64;
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.center-part-right .btn-primary{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-end;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    align-items: flex-end;
+    margin-top: 1.5rem;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.center-part-right h6{
+    color: #534C64;
+    text-align: right;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+.center-part-right h4{
+    color: #534C64;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: right;
+
+}
+/* center part end */
+/* games part start */
+.games-part-start{
+    width: 80%;
+    margin: 0 auto ;
+}
+.games-title{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+.games-title h3{
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.games-title h3>span{
+    color:  #F948B2 ; 
+}
+.games-title p{
+    color: #534C64;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 0px;
+}
+.games-pic{
+    display: flex;
+    justify-content: space-between;
+}
+.picture{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+.pic-description{
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+/* games part end */
+/* games section top start */
+.games-section{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 40px 240px;
+    align-items: center;
+}
+.games-section-left{
+    width: 100%;
+    padding-left: 48px;
+    padding-right: 10rem;
+}
+.games-section-left h3{
+    text-align: right;
+    font-size: 2.3rem;
+    font-weight: 700; 
+}
+.games-section-left h3 span{
+    color:  #F948B2 ; 
+}
+.games-section-left p{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+}
+.games-section-right{
+    margin-left: 50px;
+    width: 100%;
+}
+.games-section-right-down{
+    position: relative;
+    bottom: 130px;
+}
+/* games section top end */
+/* games section down start */
+.games-section-down{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 5rem auto;
+    align-items: center;
+}
+.games-section-down-left{
+    width: 100%;
+    padding-right: 50px;
+}
+.games-section-down-left-down{
+    position: relative;
+    right: 0px;
+    bottom: 130px; 
+}
+.games-section-down-right{
+    width: 100%;
+    padding-left: 10rem;
+}
+.games-section-down-right h3{
+    font-size: 48px;
+    font-weight: 700;
+}
+.games-section-down-right h3 span{
+    color:  #F948B2 ; 
+}
+.games-section-down-right p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* games section down end */
+/* communication section start */
+.communication-section{
+    display: flex;
+    justify-content: space-between;
+    background-color:#FF42A5 ;
+    width: 100%;
+    margin: 5rem auto;
+    padding: 10rem 8rem;
+}
+.communication-section-left h3{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+    margin-bottom: 1rem;
+}
+.communication-section-left p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+.communication{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.communication-left{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 40px;
+}
+.communication-right{
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+}
+.communication-section-left button{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 21px 40px;
+    color: #F948B2;
+    border-radius: 50px;
+   
+}
+.communication-section-right{
+
+}
+/* communication section end */
+/* liflet section start */
+.liflet-section{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 2rem auto;
+    width: 80%;
+}
+.liflet-games{
+    display: flex;
+    gap: 5px;
+    padding: 20px; 
+   
+}
+.liflet-games p{
+    color: #0B0223;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.arcade-games{
+    color: #FF42A5 ;
+}
+.liflet-games:nth-child(3){
+    border: 1px solid #FF42A5 ;
+    border-radius: 50px;
+}
+
+/* liflet section end */
+/* footer section start */
+.footer{
+    background: #0B0223;
+    width: 100%;
+    height: 636px;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+.footer-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: #FFFFFF;
+}
+.footer-title h2{
+    margin-left: 5px;
+}
+.footer-title h2 span{
+    color: #FF42A5 ;
+}
+.footer-description ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.footer-description ul li{
+    list-style: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.footer-site-logo ul{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+    gap: 50px;
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+.footer-site-logo ul li{
+    list-style: none;
+}
+.footer-terms{
+    margin-top: 50px;
+}
+.footer-terms ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: #FFFFFF;
+
+}
+.footer-terms ul li{
+    list-style: none;
+}
+.footer-end {
+    width: 90%;
+    margin: auto;
+    color: #FFFFFF;
+
+  }
+  .footer-end h4{
+    display: flex;
+    justify-content: center;
+
+  }
+
+/* footer section end */
+
